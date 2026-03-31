@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zulfayqar Khan | Portfolio</title>
+    <meta
+      name="description"
+      content="Portfolio site for Zulfayqar Khan featuring machine learning, quantitative finance, and music intelligence projects."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Syne:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <div class="noise"></div>
+      <header class="topbar">
+        <a class="brand" href="#top">ZK</a>
+        <nav class="nav">
+          <a href="#projects">Projects</a>
+          <a href="#about">About</a>
+          <a href="#cv">CV</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </header>
+
+      <main id="top">
+        <section class="hero section">
+          <div class="hero-copy" data-reveal>
+            <p class="eyebrow">GitHub portfolio and personal landing page</p>
+            <h1>
+              Turning ambitious ideas into
+              <span>machine learning products</span>
+              people can actually explore.
+            </h1>
+            <p class="lede">
+              I'm Zulfayqar Khan, a machine learning builder focused on
+              quantitative finance, music intelligence, and practical AI
+              systems. I like projects that combine strong research thinking
+              with polished presentation.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#projects"
+                >Explore projects</a
+              >
+              <a class="button button-ghost" href="./cv.html">View CV area</a>
+            </div>
+            <ul class="hero-metrics">
+              <li>
+                <strong>4+</strong>
+                <span>public projects</span>
+              </li>
+              <li>
+                <strong>Research + build</strong>
+                <span>how I work</span>
+              </li>
+              <li>
+                <strong>Finance + Audio</strong>
+                <span>core domains</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="hero-visual" data-reveal>
+            <div class="orb orb-a"></div>
+            <div class="orb orb-b"></div>
+            <div class="hero-card glass">
+              <div class="hero-card-top">
+                <span class="status-dot"></span>
+                <p>Featured snapshot</p>
+              </div>
+              <h2>Tactical Asset Allocation</h2>
+              <p>
+                Deep learning system for dynamic portfolio allocation with
+                rigorous walk-forward evaluation.
+              </p>
+              <div class="badge-row">
+                <span class="badge">PyTorch</span>
+                <span class="badge">Quant</span>
+                <span class="badge">Research</span>
+              </div>
+              <div class="signal-grid">
+                <div>
+                  <span>Sharpe</span>
+                  <strong>1.169</strong>
+                </div>
+                <div>
+                  <span>Return</span>
+                  <strong>33.7%</strong>
+                </div>
+                <div>
+                  <span>Universe</span>
+                  <strong>30 assets</strong>
+                </div>
+                <div>
+                  <span>Window</span>
+                  <strong>2018-2024</strong>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section about" id="about">
+          <div class="section-heading" data-reveal>
+            <p class="eyebrow">About</p>
+            <h2>Built to make a strong first impression on your GitHub visitors.</h2>
+          </div>
+          <div class="about-grid">
+            <article class="panel glass" data-reveal>
+              <h3>What visitors should feel</h3>
+              <p>
+                This page is built to make your GitHub feel intentional. Instead
+                of landing on a list of repositories, people get a curated first
+                impression of your interests, strengths, and best work.
+              </p>
+            </article>
+            <article class="panel glass" data-reveal>
+              <h3>Your positioning</h3>
+              <p>
+                Your projects tell a clear story: you are not just experimenting
+                with models, you are building end-to-end systems with evaluation
+                discipline, domain context, and user-facing presentation.
+              </p>
+            </article>
+            <article class="panel glass" data-reveal>
+              <h3>Where to personalize</h3>
+              <p>
+                The main things left are your real LinkedIn URL, your latest CV,
+                and any personal line you want to add about your current goals,
+                whether that is internships, research roles, or graduate work.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section class="section projects" id="projects">
+          <div class="section-heading" data-reveal>
+            <p class="eyebrow">Selected work</p>
+            <h2>Projects presented like a portfolio, not a directory.</h2>
+          </div>
+
+          <div class="filter-bar" data-reveal>
+            <button class="filter-chip is-active" data-filter="all">All</button>
+            <button class="filter-chip" data-filter="finance">Quant / Finance</button>
+            <button class="filter-chip" data-filter="music">Music / Audio</button>
+            <button class="filter-chip" data-filter="ml">ML Systems</button>
+          </div>
+
+          <div class="projects-layout">
+            <div class="project-grid">
+              <article
+                class="project-card glass is-selected"
+                data-reveal
+                data-filter-tags="finance ml"
+                data-title="Tactical Asset Allocation"
+                data-stack="Python, PyTorch, time-series modeling, backtesting"
+                data-link="https://github.com/zulfayqar-khan/tactical-asset-allocation-ai-project"
+                data-summary="A research-grade deep learning system for dynamic portfolio allocation across DJIA equities, built with walk-forward testing, transaction costs, leakage controls, and baseline comparisons."
+              >
+                <span class="project-tag">Finance</span>
+                <h3>Tactical Asset Allocation</h3>
+                <p>
+                  Research-grade allocation engine combining temporal models,
+                  disciplined evaluation, and portfolio constraints.
+                </p>
+                <div class="card-footer">
+                  <span>Deep learning</span>
+                  <span>Quant research</span>
+                </div>
+              </article>
+
+              <article
+                class="project-card glass"
+                data-reveal
+                data-filter-tags="music ml"
+                data-title="Music Mood Classifier"
+                data-stack="Python, LightGBM, Streamlit, sklearn"
+                data-link="https://github.com/zulfayqar-khan/music-mood-based-classifier-project"
+                data-summary="A full machine learning pipeline that maps Spotify audio features into broad musical mood classes, complete with feature engineering, evaluation, and a Streamlit interface."
+              >
+                <span class="project-tag">Music</span>
+                <h3>Music Mood Classifier</h3>
+                <p>
+                  End-to-end music intelligence project with model tuning,
+                  interpretable categories, and an interactive UI.
+                </p>
+                <div class="card-footer">
+                  <span>Audio ML</span>
+                  <span>Streamlit</span>
+                </div>
+              </article>
+
+              <article
+                class="project-card glass"
+                data-reveal
+                data-filter-tags="music ml"
+                data-title="Mood Classifier Project"
+                data-stack="Python, classification workflows, experimentation"
+                data-link="https://github.com/zulfayqar-khan/mood-classifier-project"
+                data-summary="An earlier mood-focused classification project that shows iterative experimentation and growing modeling depth across the music and recommendation space."
+              >
+                <span class="project-tag">ML</span>
+                <h3>Mood Classifier Project</h3>
+                <p>
+                  A portfolio piece that highlights iteration, experimentation,
+                  and practical machine learning problem solving.
+                </p>
+                <div class="card-footer">
+                  <span>Classification</span>
+                  <span>Experimentation</span>
+                </div>
+              </article>
+
+              <article
+                class="project-card glass"
+                data-reveal
+                data-filter-tags="music ml"
+                data-title="Mood-Based Classifier"
+                data-stack="Python, applied machine learning, data workflows"
+                data-link="https://github.com/zulfayqar-khan/mood-based-classifier"
+                data-summary="A larger public repository in the music classification area that helps reinforce your portfolio theme around applied machine learning and user-facing outputs."
+              >
+                <span class="project-tag">ML</span>
+                <h3>Mood-Based Classifier</h3>
+                <p>
+                  A more expansive repository that supports the broader story of
+                  applied ML across domains.
+                </p>
+                <div class="card-footer">
+                  <span>Applied ML</span>
+                  <span>Portfolio depth</span>
+                </div>
+              </article>
+            </div>
+
+            <aside class="spotlight glass" data-reveal>
+              <p class="eyebrow">Project spotlight</p>
+              <h3 id="spotlight-title">Tactical Asset Allocation</h3>
+              <p id="spotlight-summary">
+                A research-grade deep learning system for dynamic portfolio
+                allocation across DJIA equities, built with walk-forward testing,
+                transaction costs, leakage controls, and baseline comparisons.
+              </p>
+              <div class="spotlight-meta">
+                <div>
+                  <span>Stack</span>
+                  <strong id="spotlight-stack"
+                    >Python, PyTorch, time-series modeling, backtesting</strong
+                  >
+                </div>
+                <div>
+                  <span>Repo</span>
+                  <a
+                    id="spotlight-link"
+                    href="https://github.com/zulfayqar-khan/tactical-asset-allocation-ai-project"
+                    target="_blank"
+                    rel="noreferrer"
+                    >Open on GitHub</a
+                  >
+                </div>
+              </div>
+              <div class="spotlight-gallery">
+                <figure class="spotlight-shot">
+                  <img
+                    src="./assets/images/chart1_cumulative_returns.png"
+                    alt="Cumulative returns chart from tactical asset allocation project"
+                  />
+                </figure>
+                <figure class="spotlight-shot">
+                  <img
+                    src="./assets/images/model_architecture.png"
+                    alt="Model architecture diagram from tactical asset allocation project"
+                  />
+                </figure>
+                <figure class="spotlight-shot">
+                  <img
+                    src="./assets/images/system_pipeline.png"
+                    alt="System pipeline diagram from tactical asset allocation project"
+                  />
+                </figure>
+              </div>
+            </aside>
+          </div>
+        </section>
+
+        <section class="section ethos">
+          <div class="section-heading" data-reveal>
+            <p class="eyebrow">Working style</p>
+            <h2>Strong technical work, but also strong communication and presentation.</h2>
+          </div>
+          <div class="about-grid">
+            <article class="panel glass" data-reveal>
+              <h3>Research-minded</h3>
+              <p>
+                I care about rigorous evaluation, meaningful baselines, and
+                building systems that can stand up to real scrutiny rather than
+                headline metrics alone.
+              </p>
+            </article>
+            <article class="panel glass" data-reveal>
+              <h3>Product-aware</h3>
+              <p>
+                I enjoy taking technical work beyond notebooks by shaping it into
+                something people can navigate, understand, and talk about.
+              </p>
+            </article>
+            <article class="panel glass" data-reveal>
+              <h3>Cross-domain</h3>
+              <p>
+                My projects span quantitative finance and music data, which shows
+                curiosity, adaptability, and comfort moving between theory and
+                practical implementation.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section class="section cv" id="cv">
+          <div class="cv-panel glass" data-reveal>
+            <div>
+              <p class="eyebrow">CV vault</p>
+              <h2>Keep your CV inside the portfolio instead of attaching it everywhere.</h2>
+              <p>
+                This setup includes a dedicated CV page. You can upload your PDF
+                to the <code>docs/assets/cv/</code> folder and link visitors
+                straight to it from your GitHub profile and portfolio buttons.
+              </p>
+            </div>
+            <div class="cv-actions">
+              <a class="button button-primary" href="./cv.html">Open CV page</a>
+              <a class="button button-ghost" href="./assets/cv/README.md"
+                >CV upload guide</a
+              >
+            </div>
+          </div>
+        </section>
+
+        <section class="section contact" id="contact">
+          <div class="section-heading" data-reveal>
+            <p class="eyebrow">Contact</p>
+            <h2>Make it easy for people to reach the real you.</h2>
+          </div>
+          <div class="contact-grid">
+            <a
+              class="contact-card glass"
+              data-reveal
+              href="https://github.com/zulfayqar-khan"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <span>GitHub</span>
+              <strong>@zulfayqar-khan</strong>
+            </a>
+            <a
+              class="contact-card glass"
+              data-reveal
+              href="https://www.linkedin.com/in/your-linkedin-handle/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <span>LinkedIn</span>
+              <strong>Add your real LinkedIn profile</strong>
+            </a>
+            <a class="contact-card glass" data-reveal href="./cv.html">
+              <span>CV</span>
+              <strong>Portfolio resume area</strong>
+            </a>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <p>Designed to turn a GitHub visit into a portfolio experience.</p>
+      </footer>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
