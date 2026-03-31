@@ -12,7 +12,7 @@
   |
   <a href="https://www.linkedin.com/in/your-linkedin-handle/">LinkedIn</a>
   |
-  <a href="./assets/Zulfayqar_Khan_CV.pdf">CV</a>
+  <a href="https://github.com/zulfayqar-khan/zulfayqar-khan/blob/main/assets/Zulfayqar_Khan_CV.pdf">CV</a>
 </p>
 
 <p align="center">
@@ -89,4 +89,4 @@ project actually does.
 
 - GitHub: [@zulfayqar-khan](https://github.com/zulfayqar-khan)
 - LinkedIn: [replace with your real profile URL](https://www.linkedin.com/in/zulfayqark/)
-- CV: add your PDF as `assets/Zulfayqar_Khan_CV.pdf`
+- CV: [open PDF](https://github.com/zulfayqar-khan/zulfayqar-khan/blob/main/assets/Zulfayqar_Khan_CV.pdf)
