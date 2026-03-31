@@ -88,5 +88,5 @@ project actually does.
 ## Contact
 
 - GitHub: [@zulfayqar-khan](https://github.com/zulfayqar-khan)
-- LinkedIn: replace with your real profile URL
+- LinkedIn: [replace with your real profile URL](https://www.linkedin.com/in/zulfayqark/)
 - CV: add your PDF as `assets/Zulfayqar_Khan_CV.pdf`
